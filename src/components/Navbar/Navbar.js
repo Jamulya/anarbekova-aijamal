@@ -187,7 +187,6 @@ class Navbar extends PureComponent {
                })}
             >
                <div className="cart-content">
-                  {/* cart tab info comes here */}
                   {cart.length > 0 && (
                      <div className="cart-detail">
                         <h4 className="title ff-roboto">My Bag, </h4>
@@ -226,9 +225,6 @@ class Navbar extends PureComponent {
                      <Button
                         name={'CHECK OUT'}
                         onClick={() => {
-                           //checkout function
-                           //send data to api
-                           //then
                            resetCart();
                         }}
                      />

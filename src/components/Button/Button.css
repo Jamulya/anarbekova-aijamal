@@ -3,17 +3,13 @@
    height: 52px;
    left: 929px;
    top: 560px;
-
    font-family: 'Raleway';
    font-style: normal;
    font-weight: 600;
    font-size: 16px;
    line-height: 120%;
-   /* identical to box height, or 19px */
-
    text-transform: uppercase;
 
-   /* --c-white */
 }
 .primary {
    border: none;

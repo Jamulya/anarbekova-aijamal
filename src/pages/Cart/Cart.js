@@ -10,8 +10,6 @@ import { resetCart } from '../../services/redux/cartSlice';
 
 class Cart extends PureComponent {
    checkoutCart = async () => {
-      //send data to the graph endpoint
-      //if successful
       this.props.resetCart();
    };
 

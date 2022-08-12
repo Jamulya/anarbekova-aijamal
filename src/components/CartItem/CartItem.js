@@ -3,15 +3,15 @@ import { connect } from 'react-redux';
 import { cloneDeep } from 'lodash';
 import './CartItem.css';
 
-//components
+
 import Attributes from '../ProductAttributes';
 import ImageCarousal from '../ImageCarousal';
 
-//services
+
 import { getAmount } from '../../services/helpers/generalHelper';
 import { updateProduct, removeProduct } from '../../services/redux/cartSlice';
 
-//icons
+
 import quantityAdd from '../../assets/icons/cart-plus.svg';
 import quantityMinus from '../../assets/icons/cart-minus.svg';
 
@@ -23,15 +23,6 @@ class Cart extends PureComponent {
       };
    }
    selectAttribute = (attributeId, selectedAttribute, cartIndex) => {
-      //not needed here after reading the test FAQs
-      //stil leaving this here just in case
-      // const product = cloneDeep(this.props.cart[cartIndex]);
-      // const attrIndex = product.productDetails.selectedAttributes.findIndex(
-      //    (attr) => attr.id === attributeId
-      // );
-      // product.productDetails.selectedAttributes[attrIndex].selectedAttribute =
-      //    selectedAttribute;
-      // this.props.updateProduct({ cartIndex, update: product });
    };
    updateProductQuantity = (cartIndex, action) => {
       const product = cloneDeep(this.props.cart[cartIndex]);
