@@ -61,6 +61,7 @@ class Cart extends PureComponent {
                               {subTotal}
                            </td>
                         </tr>
+                        <br/>
                         <tr>
                            <td className="total">Total:</td>
                            <td>

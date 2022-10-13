@@ -5,6 +5,7 @@
 .carousal-img-container {
    width: 230px;
    height: 100%;
+   object-fit: contain;
 }
 .carousal-img {
    width: 100%;

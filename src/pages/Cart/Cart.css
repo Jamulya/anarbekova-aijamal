@@ -37,9 +37,9 @@ hr {
 .cart-details table tbody tr td:nth-child(2) {
    font-weight: 700;
 }
-.cart-details .total {
+/* .cart-details .total {
    font-weight: 600;
-}
+} */
 
 .cart-details button {
    width: 279px;

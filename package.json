@@ -41,5 +41,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "## Running the app locally",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamulya/anarbekova-aijamal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamulya/anarbekova-aijamal/issues"
+  },
+  "homepage": "https://github.com/Jamulya/anarbekova-aijamal#readme"
 }
